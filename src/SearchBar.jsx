@@ -21,7 +21,6 @@ export default function SearchBar({ onSearch }) {
           padding: "10px 22px",
           gap: "10px",
           width: "100%",
-          maxWidth: "400px",
           boxShadow: "0 4px 24px rgba(0,0,0,0.18)",
         }}
       >
