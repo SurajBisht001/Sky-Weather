@@ -1,0 +1,76 @@
+.forecast-strip {
+  margin-top: 0px;
+}
+
+.forecast-strip__title {
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.95rem;
+  font-weight: 400;
+  margin-bottom: 14px;
+  letter-spacing: 0.04em;
+}
+
+.forecast-strip__cards {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(255, 255, 255, 0.18) transparent;
+}
+
+.ForecastCard {
+  background: rgba(10, 18, 50, 0.48);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 14px;
+  padding: 12px 14px;
+  min-width: 86px;
+  max-width: 86px;
+  text-align: center;
+  flex-shrink: 0;
+  transform: translateZ(0);
+  will-change: transform, box-shadow, background, border-color;
+  transition: transform 260ms cubic-bezier(0.22, 1, 0.36, 1),
+    background 260ms ease,
+    border-color 260ms ease,
+    box-shadow 260ms ease;
+  cursor: pointer;
+}
+
+.ForecastCard:hover {
+  transform: translateY(-6px) scale(1.04);
+  background: rgba(255, 255, 255, 0.24);
+  border-color: rgba(255, 255, 255, 0.26);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.18);
+}
+
+.ForecastCard {
+  background: rgba(255, 255, 255, 0.22);
+}
+
+.ForecastCard:hover {
+  transform: translateY(-4px) scale(1.03);
+}
+
+.forecast-card__date,
+.forecast-card__time {
+  color: rgba(255, 255, 255, 0.58);
+  font-size: 0.66rem;
+}
+
+.forecast-card__time {
+  margin-bottom: 6px;
+}
+
+.forecast-card__icon {
+  filter: brightness(1.1);
+}
+
+.forecast-card__temp {
+  color: #fff;
+  font-size: 1.12rem;
+  font-weight: 600;
+  margin-top: 4px;
+}
