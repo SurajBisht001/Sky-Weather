@@ -30,7 +30,7 @@ export default function App() {
           boxSizing: "border-box",
         }}
       >
-        <div style={{ display: "flex", alignItems: "center", marginBottom: "30px" }}>
+        <div style={{ display: "flex", alignItems: "center", marginBottom: "30px", flexWrap: "wrap", gap: "16px" }}>
           <span
             style={{
               color: "rgba(255,255,255,0.45)",
