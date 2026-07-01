@@ -1,7 +1,7 @@
 import bgImage from "./assets/hero.png";
 
 export default function Background() {
-  return (
+    return (
     <div
       style={{
         position: "fixed",
