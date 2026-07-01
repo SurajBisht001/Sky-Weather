@@ -15,6 +15,7 @@ export default function CurrentWeather({ data }) {
           textShadow: "0 2px 20px rgba(0,0,0,0.25)",
         }}
       >
+        
         {data.name}, {data.sys.country}
       </h1>
 
